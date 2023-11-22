@@ -59,4 +59,4 @@ async def on_message(message):
                                     Reciclaje del textil y calzado. """)
                                         
 
-client.run("MTE3Njk4Mjk3NDkyODAwMzE3Mg.GMGXNC.hauv-4WIujj5G9LatX6onVzAdlO2hU3dNpgxZ0")
+client.run("")
