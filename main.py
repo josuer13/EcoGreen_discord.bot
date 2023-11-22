@@ -38,6 +38,25 @@ async def on_message(message):
         await message.channel.send("""Bienvenido, soy el Bot de Discord, EcoGreen.
                                     Te puedo ayudar a aprender algunos tips para ayudar al ecosistema!
                                     Escribe /tips.eco.help para ayudarte :D""")  
+        
+    if message.content.startswith("/eco"):
+        await message.channel.send("""El ecosistema es el conjunto de especies de un área determinada que interactúan entre ellas y con su ambiente abiótico;
+                                    mediante procesos como la depredación, el parasitismo, la competencia y la simbiosis,
+                                    y con su ambiente al desintegrarse y volver a ser parte del ciclo de energía y de nutrientes.""")
+    
+    if message.content.startswith("/recycle"):
+        await message.channel.send("""El reciclaje es el proceso de recolección y transformación de materiales para convertirlos en nuevos productos.
+                                    Estos deshechos, de otro modo, serían descartados como basura.
+                                    ¿Qué tipos de reciclaje existen? 
+                                    Existen algunos tipos de Reciclajes.
+                                    Reciclaje mecánico.
+                                    Reciclaje químico. 
+                                    Reciclaje energético. 
+                                    Reciclaje por residuo. 
+                                    Reciclaje de papel y carton. 
+                                    Reciclaje de plástico. 
+                                    Reciclaje de vidrio. 
+                                    Reciclaje del textil y calzado. """)
                                         
 
-client.run("token aqui!")
+client.run("MTE3Njk4Mjk3NDkyODAwMzE3Mg.GMGXNC.hauv-4WIujj5G9LatX6onVzAdlO2hU3dNpgxZ0")
